@@ -1,0 +1,17 @@
+#Button {
+  font-family: arial;
+  color: #000000 !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #D8DE1F;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 5px 34px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  border: 2px solid #C4AC0E;
+  background: #EEE9EB;
+}
+#Button:hover {
+  color: #454F6A !important;
+  background: #F3EBFF;
+}
