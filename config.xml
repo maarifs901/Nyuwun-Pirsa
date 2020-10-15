@@ -1,13 +1,18 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.UniversitasMuhammadiyahSurakarta.NyuwunPirsa" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Nyuwun Pirsa</name>
-	<description>Project Skripsi yang di ajukan oleh Syamsul ma'arif</description>
-	<author email="A710150052@student.ums.ac.id">Syamsul maarif</author>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" 
+	id="com.PTI.borobudur" 
+	version="1" android-versionCode="1"
+>
+	<name>Borobudur</name>
+	<description>Game digunakan untuk SKRIPSI</description>
+	<author email="A7101500@student.ums.ac.id.com">Novian</author>
 
-	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	
+		<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
-<platform name="android">
+	<platform name="android">
 		<allow-intent href="market:*"/>
 		<allow-intent href="http://*/*"/>
 		<allow-intent href="https://*/*"/>
@@ -40,10 +45,7 @@
 	<plugin name="cordova-plugin-whitelist" />
 	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-media" />
-    <plugin name="cordova-plugin-admob-free"> 
-	
-		<variable name="ADMOB_APP_ID" value="ca-app-pub-8268683132669652~4120722300" /> 
-	</plugin> -->
+
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
